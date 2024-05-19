@@ -1,5 +1,5 @@
 "use client";
-import { ArrowLeft, Eye, Github, Twitter } from "lucide-react";
+import { ArrowLeft, Eye, Github } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 
@@ -67,16 +67,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 								views,
 							)}
 						</span>
-						<Link target="_blank" href="https://twitter.com/chronark_">
-							<Twitter
-								className={`w-6 h-6 duration-200 hover:font-medium ${
-									isIntersecting
-										? " text-zinc-400 hover:text-zinc-100"
-										: "text-zinc-600 hover:text-zinc-900"
-								} `}
-							/>
-						</Link>
-						<Link target="_blank" href="https://github.com/chronark">
+						<Link target="_blank" href="https://github.com/ChrisA2021">
 							<Github
 								className={`w-6 h-6 duration-200 hover:font-medium ${
 									isIntersecting
@@ -101,7 +92,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 			</div>
 			<div className="container mx-auto relative isolate overflow-hidden  py-24 sm:py-32">
 				<div className="mx-auto max-w-7xl px-6 lg:px-8 text-center flex flex-col items-center">
-					<div className="mx-auto max-w-2xl lg:mx-0">
+					<div className="mx-auto max-w-8xl lg:mx-0">
 						<h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl font-display">
 							{project.title}
 						</h1>
