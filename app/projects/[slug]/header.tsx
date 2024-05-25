@@ -43,7 +43,10 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 	return (
 		<header
 			ref={ref}
-			className="relative isolate overflow-hidden bg-gradient-to-tl from-black via-zinc-900 to-black"
+			className="relative isolate overflow-hidden"
+			style={{
+				background: 'linear-gradient(to top left, #01bdcf, #2297d4, #3479d9, #5255e0, #6a34e3, #7b20e8)',
+			  }}
 		>
 			<div
 				className={`fixed inset-x-0 top-0 z-50 backdrop-blur lg:backdrop-blur-none duration-200 border-b lg:bg-transparent ${

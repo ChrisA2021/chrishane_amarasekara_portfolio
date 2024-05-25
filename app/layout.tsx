@@ -66,8 +66,10 @@ export default function RootLayout({
         <Analytics />
       </head>
       <body
-        className={`bg-black ${process.env.NODE_ENV === "development" ? "debug-screens" : undefined
-          }`}
+            style={{
+              background: 'linear-gradient(to top left, #01bdcf, #2297d4, #3479d9, #5255e0, #6a34e3, #7b20e8)',
+            }}
+
       >
         {children}
       </body>
