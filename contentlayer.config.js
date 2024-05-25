@@ -42,6 +42,18 @@ export const Project = defineDocumentType(() => ({
 		repository: {
 			type: "string",
 		},
+		image: {
+			type: "string",
+			required: true,
+		},
+		imageWidth: {
+			type: "number",
+			required: true,
+		},
+		imageHeight: {
+			type: "number",
+			required: true,
+		},
 	},
 	computedFields,
 }));
