@@ -1,8 +1,7 @@
 import type { Project } from "@/.contentlayer/generated";
 import Link from "next/link";
-import { Eye, View } from "lucide-react";
+import { Eye } from "lucide-react";
 import Image from 'next/image';
-import MonashWomens from 'public/images/MonashWomens.png';
 
 type Props = {
 	project: Project;
@@ -43,7 +42,7 @@ export const Article: React.FC<Props> = ({ project, views }) => {
 						src={project.image}
 						width={project.imageWidth}
 						height={project.imageHeight}
-						alt="Picture of the author"
+						alt={`Picture of ${project.title}`}
 						className="object-cover"
 					/>
 				</div>

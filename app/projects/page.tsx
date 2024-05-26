@@ -21,9 +21,10 @@ export default async function ProjectsPage() {
   }, {} as Record<string, number>);
 
   const top1 = allProjects.find((project) => project.slug === "logan_flood")!;
-  const top2 = allProjects.find((project) => project.slug === "uniways")!;
-  const top3 = allProjects.find((project) => project.slug === "logan_flood")!;
-  const top4 = allProjects.find((project) => project.slug === "monash_health")!;
+  const top2 = allProjects.find((project) => project.slug === "monash_health")!;
+  const top3 = allProjects.find((project) => project.slug === "habitify")!;
+  const top4 = allProjects.find((project) => project.slug === "unily4e")!;
+  const top5 = allProjects.find((project) => project.slug === "uniways")!;
   const sorted = allProjects
     .filter((p) => p.published)
     .filter(
@@ -57,7 +58,7 @@ export default async function ProjectsPage() {
         <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-1 ">
 
           <div className="flex flex-col w-full  gap-8 mx-auto border-t border-gray-900/10 lg:mx-0 lg:border-t-0 ">
-            {[top1, top2, top4].map((project) => (
+            {[top1, top2, top3, top4, top5].map((project) => (
               <Card key={project.slug}>
                 <Article project={project} views={views[project.slug] ?? 0} />
               </Card>
