@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
-import { Button } from "@nextui-org/button";
 
 const navigation = [
   { name: "Projects", href: "/projects" },
