@@ -12,7 +12,7 @@ export default function Home() {
     <div
       className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden"
       style={{
-        background: 'linear-gradient(to top left, #01bdcf, #2297d4, #3479d9, #5255e0, #6a34e3, #7b20e8)',
+				background: 'linear-gradient(to top left, #ffffff, #bcf2fc, #11b4ea, #11b4ea)',
       }}
     >
 

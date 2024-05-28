@@ -49,11 +49,11 @@ export default async function ProjectsPage() {
           <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
             Projects
           </h2>
-          <p className="mt-4 text-zinc-400">
+          <p className="mt-4 text-zinc-100">
             Some of the projects are from work and some are on my own time.
           </p>
         </div>
-        <div className="w-full h-px bg-zinc-800" />
+        <div/>
 
         <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-1 ">
 
@@ -65,7 +65,7 @@ export default async function ProjectsPage() {
             ))}
           </div>
         </div>
-        <div className="hidden w-full h-px md:block bg-zinc-800" />
+        <div/>
       </div>
     </div>
   );

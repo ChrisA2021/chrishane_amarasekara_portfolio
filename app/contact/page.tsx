@@ -21,7 +21,7 @@ const socials = [
 
 export default function Example() {
 	return (
-		<div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
+		<div>
 			<Navigation />
 			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
 				<div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-2 lg:gap-16">
@@ -43,7 +43,7 @@ export default function Example() {
 									<span className="lg:text-xl font-medium duration-150 xl:text-3xl text-zinc-200 group-hover:text-white font-display">
 										{s.handle}
 									</span>
-									<span className="mt-4 text-sm text-center duration-1000 text-zinc-400 group-hover:text-zinc-200">
+									<span className="mt-4 text-sm text-center duration-1000 text-zinc-100 group-hover:text-zinc-200">
 										{s.label}
 									</span>
 								</div>

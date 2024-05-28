@@ -67,7 +67,7 @@ export default function RootLayout({
       </head>
       <body
             style={{
-              background: 'linear-gradient(to top left, #01bdcf, #2297d4, #3479d9, #5255e0, #6a34e3, #7b20e8)',
+              background: 'linear-gradient(to top left, #bcf2fc, #11b4ea, #11b4ea)',
             }}
 
       >

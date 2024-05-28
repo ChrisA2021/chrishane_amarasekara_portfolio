@@ -45,8 +45,8 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 			ref={ref}
 			className="relative isolate overflow-hidden"
 			style={{
-				background: 'linear-gradient(to top left, #01bdcf, #2297d4, #3479d9, #5255e0, #6a34e3, #7b20e8)',
-			  }}
+				background: 'linear-gradient(to top left, #bcf2fc, #11b4ea)',
+			}}
 		>
 			<div
 				className={`fixed inset-x-0 top-0 z-50 backdrop-blur lg:backdrop-blur-none duration-200 border-b lg:bg-transparent ${
@@ -61,8 +61,8 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 							title="View counter for this page"
 							className={`duration-200 hover:font-medium flex items-center gap-1 ${
 								isIntersecting
-									? " text-zinc-400 hover:text-zinc-100"
-									: "text-zinc-600 hover:text-zinc-900"
+									? " text-zinc-100 hover:text-zinc-100"
+									: "text-zinc-100 hover:text-zinc-900"
 							} `}
 						>
 							<Eye className="w-5 h-5" />{" "}
@@ -74,8 +74,8 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 							<Github
 								className={`w-6 h-6 duration-200 hover:font-medium ${
 									isIntersecting
-										? " text-zinc-400 hover:text-zinc-100"
-										: "text-zinc-600 hover:text-zinc-900"
+										? " text-zinc-100 hover:text-zinc-100"
+										: "text-zinc-100 hover:text-zinc-900"
 								} `}
 							/>
 						</Link>
@@ -85,8 +85,8 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 						href="/projects"
 						className={`duration-200 hover:font-medium ${
 							isIntersecting
-								? " text-zinc-400 hover:text-zinc-100"
-								: "text-zinc-600 hover:text-zinc-900"
+								? " text-zinc-100 hover:text-zinc-100"
+								: "text-zinc-100 hover:text-zinc-900"
 						} `}
 					>
 						<ArrowLeft className="w-6 h-6 " />
@@ -99,7 +99,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 						<h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl font-display">
 							{project.title}
 						</h1>
-						<p className="mt-6 text-lg leading-8 text-zinc-300">
+						<p className="mt-6 text-lg leading-8 text-zinc-100">
 							{project.description}
 						</p>
 					</div>
