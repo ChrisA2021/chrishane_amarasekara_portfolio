@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "Chrishane Amarasekara",
     images: [
       {
-        url: "/ChrishaneFavicon.png",
+        url: "https://www.chrishane-amarasekara.com/ChrishaneFavicon.png",
         width: 1920,
         height: 1080,
       },
