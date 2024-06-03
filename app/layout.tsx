@@ -6,19 +6,19 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chrishane-amarasekara.com",
-    template: "%s | chronark.com",
+    default: "Chrishane-Amarasekara.com",
+    template: "%s | Chrishane-Amarasekara.com",
   },
   description: "Chrishane Amarasekara | Software Engineer, Geneticist, Astrophysicist ... in the making",
   openGraph: {
-    title: "chrishane-amarasekara.com",
+    title: "Chrishane-Amarasekara.com",
     description:
       "Chrishane Amarasekara | Software Engineer, Geneticist, Astrophysicist ... in the makin",
     url: "https://chrishane-amarasekara.com",
-    siteName: "chrishane-amarasekara.com",
+    siteName: "Chrishane Amarasekara",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "/ChrishaneFavicon.png",
         width: 1920,
         height: 1080,
       },
@@ -38,11 +38,11 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "Chrishane Amarasekara Portfolio",
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "/ChrishaneFavicon.png",
   },
 };
 const inter = Inter({
