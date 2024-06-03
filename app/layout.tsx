@@ -6,14 +6,14 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "Chrishane-Amarasekara.com",
-    template: "%s | Chrishane-Amarasekara.com",
+    default: "Chrishane Amarasekara",
+    template: "%s | Chrishane Amarasekara",
   },
   description: "Chrishane Amarasekara | Software Engineer, Geneticist, Astrophysicist ... in the making",
   openGraph: {
-    title: "Chrishane-Amarasekara.com",
+    title: "Chrishane Amarasekara",
     description:
-      "Chrishane Amarasekara | Software Engineer, Geneticist, Astrophysicist ... in the makin",
+      "Chrishane Amarasekara | Software Engineer, Geneticist, Astrophysicist ... in the making",
     url: "https://chrishane-amarasekara.com",
     siteName: "Chrishane Amarasekara",
     images: [
