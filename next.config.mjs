@@ -6,6 +6,16 @@ const nextConfig = {
 	experimental: {
 		mdxRs: true,
 	},
+	images: {
+		remotePatterns: [
+			{
+				protocol: 'https',
+				hostname: 'chrishane-amarasekara-portfolio.s3.ap-southeast-2.amazonaws.com',
+				port: '',
+				pathname: '/**',
+			},
+		],
+	},
 };
 
 export default withContentlayer(nextConfig);
