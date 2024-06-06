@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "Chrishane Amarasekara",
     images: [
       {
-        url: "https://www.chrishane-amarasekara.com/ChrishaneFavicon.png",
+        url: "https://chrishane-amarasekara-portfolio.s3.ap-southeast-2.amazonaws.com/og.png",
         width: 1920,
         height: 1080,
       },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/ChrishaneFavicon.png",
+    shortcut: "https://chrishane-amarasekara-portfolio.s3.ap-southeast-2.amazonaws.com/ChrishaneFavicon.png",
   },
 };
 const inter = Inter({
